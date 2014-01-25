@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Главная</title>
+    <title>Новости</title>
     <meta name = "format-detection" content = "telephone=no" />
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script src="js/jquery.js"></script>
-    <script src="js/superfish.js"></script>
    <script src="js/jquery.equalheights.js"></script>
    <script src="js/jquery.formstyler.js"></script>
-   <script src="js/jquery.arcticmodal-0.3.min.js"></script>
 	 <script>
 		  $(window).load(function() {
         $('input, select').styler();
-        $('#modal').arcticmodal();
-			});
+			 });
 	 </script>
 	<!--[if lt IE 8]>
    <div style=' clear: both; text-align:center; position: relative;'>
@@ -65,13 +62,13 @@
       </header>
       <nav>
         <ul class="sf-menu">
-          <li class="menu_item current"><a class="menu_link" href="index.html">Главная</a></li>
+          <li class="menu_item"><a class="menu_link" href="index.html">Главная</a></li>
           <li class="menu_item"><a class="menu_link" href="index-1.html">Как стать клиентом</a></li>
           <li class="menu_item"><a class="menu_link" href="index-2.html">Документация для клиентов</a></li>
           <li class="menu_item"><a class="menu_link" href="index-3.html">Регистрация доменов</a></li>
           <li class="menu_item"><a class="menu_link" href="index-4.html">Тарифы и оплата</a></li>
           <li class="menu_item"><a class="menu_link" href="index-5.html">Наши акции</a></li>
-          <li class="menu_item"><a class="menu_link" href="index-6.html">Новости</a></li>
+          <li class="menu_item current"><a class="menu_link" href="index-6.html">Новости</a></li>
           <li class="menu_item"><a class="menu_link" href="index-7.html">WHOIS</a></li>
           <li class="menu_item"><a class="menu_link" href="index-8.html">Контакты</a></li>
        </ul>
@@ -79,9 +76,9 @@
       </nav>
   <!--==============================content================================-->
       <section id="content">
-      	<div class="wrapper p2">
-         <div class="gray_bg f_left col1">
-           <form id="reg_form" class="col_inner1">
+      	<div class="wrapper">
+         <div class="f_left col1">
+           <form id="reg_form" class="gray_bg col_inner1">
              <h2 class="med title1">Регистрация доменов</h2>
              <div class="wrapper">
                <div class="f_right">
@@ -98,9 +95,26 @@
                <a href="#" class="g_gradient d_in-block radius3 btn2">Зарегистрировать</a>
              </div>
            </form>
+           <div class="p_bot_zero col_inner1">
+             <h2 class="med title1">Новости</h2>
+             <p class="p2 green">
+               <a href="#" class="green_link">Вернуться на главную</a>
+             </p>
+             <ul class="event_list lt">
+               <li class="event_item">
+                  <h4 class="title2 med">Изменения в договоре об оказании услуг</h4>
+                 <div class="time_wrap">
+                   <time class="green time">19.01.2013  17:45</time>
+                 </div>
+                 <p>Уважаемые клиенты! В связи с вступлением в силу с 12 ноября 2013 года новых Правил регистрации доменных имен в домене .RU и .РФ и Положения "О процедурах, подлежащих применению при возникновении споров о доменных именах", уведомляем Вас о внесении изменений в Договор об оказании услуг. Услуги по регистрации и продлению доменных имен будут оказываться с учетом внесенных изменений.</p>
+
+                  А также информируем Вас об изменениях в тарифах на предоставляемые услуги.
+               </li>
+             </ul>
+           </div>
          </div>
-          <div class="gray_bg f_left col2">
-            <div class="col_inner2">
+          <aside class="f_left col2">
+            <div class="gray_bg p5 col_inner2">
                <div class="wrapper">
                  <h2 class="f_left med title1">Тарифы</h2>
                  <a href="#" class="f_right label_btn">Все тарифы</a>
@@ -124,114 +138,55 @@
                  </li>
                </ul>
             </div>
-          </div> 
-        </div>
-        <div class="wrapper p3">
-          <h2 class="title1 med indent t_ind">Этапы регистрации домена</h2>
-          <div class="wrapper row steps_wrap">
-            <div class="gray_bg radius3 f_left step">
-              <div class="step_inner">
-                <figure class="step_img">
-                  <img src="images/step_img1.png" alt="">
-                </figure>
-                <div class="step_text lt">
-                  Первым делом выберите доменную зону и подходящие название для домена, чтобы оно соответствовало тематике или вашей деятельности если этот сайт вашей фирмы
-                </div>
-                <a href="#" class="d_block btn3">Подробнее</a>
-              </div>
-            </div>
-            <div class="gray_bg radius3 f_left step">
-              <div class="step_inner">
-                <figure class="step_img">
-                  <img src="images/step_img2.png" alt="">
-                </figure>
-                <div class="step_text lt">
-                  Вторым вашим шагом будет определить свободен ли этот домен, для этого введите его название в нашу форму.
-                </div>
-                <a href="#" class="d_block btn3">Подробнее</a>
-              </div>
-            </div>
-            <div class="gray_bg radius3 f_left step">
-              <div class="step_inner">
-                <figure class="step_img">
-                  <img src="images/step_img3.png" alt="">
-                </figure>
-                <div class="step_text lt">
-                  Если домен оказался свободным, нажимайте кнопку "зарегистрировать домен" и вы попадете на страницу с правилами и обязанностями при регистрации домена.
-                </div>
-                <a href="#" class="d_block btn3">Подробнее</a>
-              </div>
-            </div>
-            <div class="gray_bg radius3 f_left step">
-              <div class="step_inner">
-                <figure class="step_img">
-                  <img src="images/step_img4.png" alt="">
-                </figure>
-                <div class="step_text lt">
-                  При регистрации домена так же можно указать DNS сервера, где будет расположен ваш сайт, либо это можно сделать позже.
-                </div>
-                <a href="#" class="d_block btn3">Подробнее</a>
-              </div>
-            </div>
-            <div class="gray_bg radius3 f_left step">
-              <div class="step_inner">
-                <figure class="step_img">
-                  <img src="images/step_img5.png" alt="">
-                </figure>
-                <div class="step_text lt">
-                  Через несколько часов домен будет доступен для использования.
-                </div>
-                <a href="#" class="d_block btn3">Подробнее</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="wrapper row">
-          <div class="f_left radius3 maxheight gray_bg col3">
-            <div class="col_inner3">
-              <div class="wrapper">
-                <h2 class="med f_left t_ind1 title1">Новости</h2>
-                <a href="#" class="f_right label_btn1">Архив новостей</a>
-              </div>
-              <time class="news_time" datetime="2013-01-19">19.01.2013  17:45</time>
-              <div class="news_text">
-                <p class="p4">Уважаемые клиенты! В связи с вступлением в силу с 12 ноября 2013 года новых Правил регистрации доменных имен в домене .RU и .РФ и Положения "О процедурах, подлежащих применению при возникновении споров о доменных именах", уведомляем Вас о внесении изменений в Договор об оказании услуг. 
-                  Услуги по регистрации и продлению доменных имен будут оказываться с учетом внесенных изменений.</p>
 
-                А также информируем Вас об изменениях в тарифах на предоставляемые услуги.
+            <div class="radius3 p5 gray_bg">
+              <div class="col_inner3">
+                <div class="wrapper">
+                  <h2 class="med f_left t_ind1 title1">Новости</h2>
+                  <a href="#" class="f_right label_btn1">Архив новостей</a>
+                </div>
+                <time class="news_time" datetime="2013-01-19">19.01.2013  17:45</time>
+                <div class="news_text">
+                  <p class="p4">Уважаемые клиенты! В связи с вступлением в силу с 12 ноября 2013 года новых Правил регистрации доменных имен в домене .RU и .РФ и Положения "О процедурах, подлежащих применению при возникновении споров о доменных именах", уведомляем Вас о внесении изменений в Договор об оказании услуг. 
+                    Услуги по регистрации и продлению доменных имен будут оказываться с учетом внесенных изменений.</p>
+
+                  А также информируем Вас об изменениях в тарифах на предоставляемые услуги.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="f_left radius3 maxheight gray_bg col3">
-            <div class="col_inner3">
-              <div class="wrapper">
-                <h2 class="med f_left t_ind1 title1">Акции</h2>
-                <a href="#" class="f_right label_btn1">Все акции</a>
-              </div>
-              <time class="news_time" datetime="2013-01-19">19.01.2013  17:45</time>
-              <div class="news_text">
-                <p class="p4">На данный момент никаких акций не проводится</p>
-              </div>
-            </div>
-          </div>
-          <div class="f_left radius3 maxheight gray_bg col3">
-            <div class="col_inner3">
-              <h2 class="med t_ind1 title1">Способы оплаты</h2>
-              <div class="payment_box">
-                <p>
-                  <img src="images/payment1.png" alt="">
-                  <img src="images/payment2.png" alt="">
-                </p>
-                <p>
-                  <img src="images/payment3.png" alt="">
-                  <img src="images/payment4.png" alt="">
-                </p>
-              </div>
-              <div class="al_right">
-                <a href="#" class="d_in-block btn4">Другие способы оплаты</a>
+
+            <div class="radius3 p5 maxheight gray_bg">
+              <div class="col_inner3">
+                <div class="wrapper">
+                  <h2 class="med f_left t_ind1 title1">Акции</h2>
+                  <a href="#" class="f_right label_btn1">Все акции</a>
+                </div>
+                <time class="news_time" datetime="2013-01-19">19.01.2013  17:45</time>
+                <div class="news_text">
+                  <p class="p4">На данный момент никаких акций не проводится</p>
+                </div>
               </div>
             </div>
-          </div>
+
+            <div class="radius3 maxheight gray_bg">
+              <div class="col_inner3">
+                <h2 class="med t_ind1 title1">Способы оплаты</h2>
+                <div class="payment_box">
+                  <p>
+                    <img src="images/payment1.png" alt="">
+                    <img src="images/payment2.png" alt="">
+                  </p>
+                  <p>
+                    <img src="images/payment3.png" alt="">
+                    <img src="images/payment4.png" alt="">
+                  </p>
+                </div>
+                <div class="al_right">
+                  <a href="#" class="d_in-block btn4">Другие способы оплаты</a>
+                </div>
+              </div>
+            </div>
+          </aside> 
         </div>
       </section>
   </div>
@@ -279,31 +234,5 @@
       </div>
     </div>
   </footer>
-  <div class="box-modal gray_bg" id="modal">
-    <div class="modal_inner">
-      <div class="box-modal_close arcticmodal-close"></div>
-      <h2 class="title1 med">Вход на сайт</h2>
-      <div class="login_comment lt">
-        Для полного доступа к услугам RUNETPROEKT.RU необходимо авторизоваться или зарегистрироваться.
-      </div>
-      <form action="#" class="wrapper" id="login_box1">
-        <div class="f_left login_box__col">
-            <div class="login_row">
-              <input type="text" value="Логин" onblur="if(this.value=='') this.value='Логин'" onfocus="if(this.value =='Логин' ) this.value=''">
-            </div>
-            <ul class="form_links_list">
-              <li class="form_list__item"><a href="#" class="form_link">Регистрация</a></li>
-              <li class="form_list__item"><a href="#" class="form_link">Напомнить пароль</a></li>
-            </ul>
-        </div>
-        <div class="f_left login_box__col">
-          <div class="login_row">
-              <input type="text" value="Пароль" onblur="if(this.value=='') this.value='Пароль'" onfocus="if(this.value =='Пароль' ) this.value=''">
-          </div>
-          <a href="#" class="g_gradient d_block med radius3 btn1">Войти</a>
-        </div>
-      </form>
-    </div>
-  </div>
 </body>
 </html>

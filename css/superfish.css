@@ -1,23 +1,41 @@
-nav{ position:relative; margin: 0px 0 0 0;}
+nav{
+	position:relative; 
+	margin: 0px 0 0 0;
+ 	background: #1e6ea4;
+ 	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	overflow: hidden;
+	height: 43px;
+}
 .sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
 .sf-menu ul li {width:100%}
 .sf-menu li {float:left;position:relative}
 
 .menu_link{
-  display:block;
   position:relative;
-  font-size: px;
-  line-height: px;
-  color:#;
+  font-size: 14px;
+  line-height: 1.1em;
+  color:#fff;
+  height: 43px;
+  width: 81px;
+  padding: 0 10px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 0px;
 }
 .menu_link:hover,
 .current .menu_link,
 li.sfHover .menu_link{
-  
+  background-color: #5da40d;
+  -webkit-box-shadow: inset -3px 0 4px #2f6c08;
+  -moz-box-shadow: inset -3px 0 4px #2f6c08;
+  box-shadow: inset -3px 0 4px #2f6c08;
 }
 
-.menu_item{
-  
+.sf-menu .menu_item:first-child .menu_link{
+  width: 76px;
 }
 
 /*================================>> 2 Level <<========================================*/
