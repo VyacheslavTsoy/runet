@@ -173,6 +173,7 @@ a:hover{
 
 /*----------------------> Displays <------------------*/
 
+.d_none{ display:none;}
 .d_block{ display:block;}
 .d_in-block{ display:inline-block;}
 
